@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><b>Add New Article</b></h1>
+      <br>
+      <form class="md-form" action="#">
+        <div class="form-group">
+          <label for="exampleInputText1"><b>Article Title</b></label>
+          <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Title">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputText1"><b>Author Name</b></label>
+          <input type="text" class="form-control" id="exampleInputText1" placeholder="Name">
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-6">
+            <p><b>Upload Files:</b></p>
+            <div class="custom-file mb-3">
+              <input type="file" class="custom-file-input" id="customFile" name="filename">
+              <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <p><b>Pages</b></p>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border: 1px solid grey">
+                Select a Page
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Page 1</a>
+                <a class="dropdown-item" href="#">Page 2</a>
+                <a class="dropdown-item" href="#">Page 3</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputText1"><b>Article Text</b></label>
+          <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" style="height: 500px">
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <h3><b>Select Tags</b></h3>
+          </div>
+          <div class="col-sm-6">
+            <h3><b>Visibility</b></h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="defaultInline1">
+              <label class="custom-control-label" for="defaultInline1">Python</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="defaultInline2">
+              <label class="custom-control-label" for="defaultInline2">C++</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="defaultInline3">
+              <label class="custom-control-label" for="defaultInline3">Java</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="defaultInline4">
+              <label class="custom-control-label" for="defaultInline4">Scala</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input type="checkbox" class="custom-control-input" id="defaultInline5">
+              <label class="custom-control-label" for="defaultInline5">Perl</label>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Public
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Private
+              </label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3><b>Login to Finish Submitting</b></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <input type="Username" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Username">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Password">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="rememberMe">
+              <label class="custom-control-label" for="rememberMe">Remember Me</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
