@@ -79,10 +79,7 @@ h2{
   color: var(--text-color);
 }
 
-#resume{
-  position: absolute;
-  left: -20%;
-  background-image: url(resume.jpg);
-  height: 906px;
+.resume{
   width: 700px;
+  height: 906px;
 }
